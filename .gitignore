@@ -1,0 +1,51 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Virtual environment ─────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Model weights (hosted on HuggingFace, not git) ──────
+uzbek-whisper/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# ── Audio files ─────────────────────────────────────────
+audio/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+_temp_input.wav
+
+# ── Generated outputs ───────────────────────────────────
+output/
+*_transcript.txt
+
+# ── HuggingFace cache ───────────────────────────────────
+.cache/
+
+# ── Environment variables ───────────────────────────────
+.env
+*.env
+
+# ── IDE ─────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Logs ────────────────────────────────────────────────
+*.log
+wandb/
+runs/
