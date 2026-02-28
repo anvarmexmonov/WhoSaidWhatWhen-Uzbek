@@ -113,4 +113,14 @@ Run `bash fine-tune/run.sh` from the project root. It automatically detects and 
 
 ## License
 
-MIT © [AnvarMexmonov](https://github.com/AnvarMexmonov)
+This project is licensed under the MIT License.
+
+If you use this project in your research, please cite it as:
+
+```bibtex
+@software{mexmonov2026whosaidwhatwhen-uzbek,
+  author       = {Anvar Mexmonov},
+  title        = {WhoSaidWhatWhen: Speaker Diarization and ASR Pipeline v2},
+  year         = {2026},
+  url          = {[https://github.com/anvarmexmonov/WhoSaidWhatWhen-Uzbek](https://github.com/anvarmexmonov/WhoSaidWhatWhen-Uzbek)}
+}

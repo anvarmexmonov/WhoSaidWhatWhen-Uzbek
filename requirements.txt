@@ -1,0 +1,17 @@
+# PyTorch with CUDA 12.6 — install this first before the rest
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
+--index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+torchaudio
+
+--index-url https://pypi.org/simple
+transformers
+peft
+datasets==3.6.0
+pyannote.audio
+pydub
+librosa
+safetensors
+huggingface_hub
