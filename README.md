@@ -1,6 +1,6 @@
 # WhoSaidWhatWhen — Uzbek
 
-> Automatically identifies **who spoke**, **when**, and **what they said** — in Uzbek.
+> Automatically identifies **who spoke**, **when**, and **what they said** - in Uzbek.
 
 A production-ready speaker diarization and transcription pipeline built on a custom fine-tuned Whisper Large-v3 LoRA adapter, trained specifically on native Uzbek conversational speech.
 
